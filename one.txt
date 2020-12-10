@@ -1,0 +1,6 @@
+﻿Hey I am writting this is first assignment for the django 
+it is to read the file and showing it on the web page
+the code for the file presentation is:
+def index():
+	file = open(“filename”, “r”)
+	return HttpResponse(file.read())
